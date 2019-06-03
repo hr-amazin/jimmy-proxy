@@ -11,7 +11,10 @@ html, body{
     font-size: 12px;
     line-height: 1em;
     
+    
 }
+
+
 
 .header {
     background-color: darkblue;
@@ -39,9 +42,11 @@ html, body{
     background-color: white;
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 
 .carousel {
+    padding-top: 20px;
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
@@ -53,6 +58,7 @@ html, body{
 }
 
 .footer {
+    padding-left: 44px;
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
@@ -101,7 +107,7 @@ html, body{
     padding-left:10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding-bottom: 10px;
+    
     /* border: 2px green solid; */
 
 }
@@ -155,10 +161,10 @@ width: 8%;
 }
 
 /* #mainimg  */
-#mainimg:hover{
+/* #mainimg:hover{
     transform: scale(2);
     
-}
+} */
 
 /*  */
 
