@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 8080;
 // const {findByUuid} = require('../db/index.js');
 app.use(express.json());
 app.use(express.static('./public'))
@@ -13,4 +14,4 @@ app.use(express.static('./public'))
 //       } 
 //     }) 
 // })
-app.listen(3000, ()=>{console.log('listening at port 3000')})
+app.listen(port, ()=>{console.log('listening at port', port)})
